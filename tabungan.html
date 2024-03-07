@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pengatur Keuangan</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pengatur Keuangan</h1>
+        <h2>Saldo Anda: <span id="balance">0</span></h2>
+        <h3>Tambahkan Transaksi:</h3>
+        <input type="number" id="transactionAmount" placeholder="Masukkan jumlah">
+        <br>
+        <input type="text" id="transactionType" placeholder="Jenis transaksi">
+        <br>
+        <input type="text" id="transactionPurpose" placeholder="Tujuan transaksi">
+        <br>
+        <button id="addTransaction">Tambahkan Transaksi</button>
+        <h3>Riwayat Transaksi:</h3>
+        <ul id="transactionHistory"></ul>
+        <button id="exportToExcel">Ekspor ke Excel</button>
+        <button id="resetData">Mulai dari Awal</button>
+    </div>
+
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

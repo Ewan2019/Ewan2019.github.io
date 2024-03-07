@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    
+}
+
+#balance {
+    font-size: 2em;
+    color: green;
+}
+
+#transactionHistory {
+    margin-top: 20px;
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
